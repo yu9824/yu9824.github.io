@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://yu9824.github.io/note/sitemap-old.xml
 Sitemap: https://yu9824.github.io/portfolio/sitemap.xml
