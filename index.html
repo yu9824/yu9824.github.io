@@ -1,0 +1,26 @@
+<!-- redirects within the site -->
+<!-- you need `redirect_to` ; relative path to the destination you wish to redirect to. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="canonical" href="https://yu9824.github.io/ternary_diagram/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  {% if page.redirect %}
+  <meta http-equiv="refresh" content="0;url=https://yu9824.github.io/ternary_diagram/" />
+  {% endif page.redirect %}
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+</head>
+
+<body>
+  <h1>Redirecting...</h1>
+  <a href="https://yu9824.github.io/ternary_diagram/">Click here if you are not redirected.<a>
+      {% if page.redirect %}
+      <script type="text/javascript">location = 'https://yu9824.github.io/ternary_diagram/'</script>
+      {% endif page.redirect %}
+</body>
+
+</html>
